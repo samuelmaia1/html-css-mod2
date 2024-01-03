@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        header{
+            background-color: white;
+        }
+
+        nav{
+            background-color: rgb(199, 199, 199);
+        }
+
+        nav > a{
+            color: black;
+            font-style: italic;
+            text-decoration: none;  
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 3px;
+        }
+
+        section{
+            background-color: lightgray;
+        }
+
+        article > h2{
+            text-align: center;
+        }
+
+        article{
+            text-align: right;
+            text-align: justify;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique rem itaque, ipsa recusandae nulla quia reprehenderit eveniet aut libero ex, a dolorum. Amet, minima quam cumque dolor in odit cupiditate.</p>
+                <aside>Artigo escrito por José da Silva</aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>
