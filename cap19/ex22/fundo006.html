@@ -11,11 +11,19 @@
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
             background-repeat: no-repeat;
-            background-size:100% 100%;
+            background-size: cover;
+            background-attachment: fixed;
             /*
             contain: faz com que a imagem seja 100% exibida
             cover: cobre a tela inteira
-             */ 
+            */ 
+
+            /*
+            shorthand - background
+                color > image > position > repeat> size > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center top no-repeat cover fixed;
         }
 
         main{
